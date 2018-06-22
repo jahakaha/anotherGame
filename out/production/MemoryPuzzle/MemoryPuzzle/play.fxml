@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MemoryPuzzle.Controller">
+   <children>
+      <Text fill="WHITE" layoutX="167.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What do you want to learn?" wrappingWidth="634.0904235839844">
+         <font>
+            <Font name="SignPainter-HouseScript" size="64.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_deriv" layoutX="139.0" layoutY="315.0" mnemonicParsing="false" onAction="#derivatives" prefHeight="80.0" prefWidth="250.0" style="-fx-background-color: white;" text="Derivatives" textFill="GREY">
+         <font>
+            <Font name="Marker Felt Thin" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_integrals" layoutX="514.0" layoutY="315.0" mnemonicParsing="false" onAction="#integrals" prefHeight="80.0" prefWidth="250.0" style="-fx-background-color: white;" text="Integrals" textFill="GREY">
+         <font>
+            <Font name="Marker Felt Thin" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
